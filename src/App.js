@@ -10,7 +10,7 @@ function App() {
       </div>
       <div class="goku">
         <img src="goku-img.jpeg" alt="" />
-        <h1>Dare to dream. Dare to build.</h1>
+        <p>Dare to dream. Dare to build.</p>
       </div>
     </div>
   );
