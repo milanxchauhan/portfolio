@@ -1,18 +1,71 @@
 .App {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 1.125rem;
+  line-height: 1.6;
   text-align: center;
   margin: 0em;
   padding: 2em;
 }
 
 .Intro {
-  float: left;
+  display: inline-block;
   text-align: left;
-  padding: 1em 0 0 0;
   margin: 0;
-  font-size: 12px;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 2em 0 2em 0;
+}
+
+.nav li {
+  margin-right: 10px;
+}
+
+.nav a {
+  text-decoration: underline;
+}
+
+ul {
+  padding-inline-start: 0px;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .goku {
-  margin: 2em 0em 2em 2em;
-  float: right;
+  margin: 2em 0em 2em 0em;
+  text-align: left;
+}
+
+.goku-img {
+  width: 300px;
+  height: 300px;
+}
+
+.avatar-img {
+  width: 300px;
+  height: 300px;
+  margin-right: 2em;
+}
+
+.projects li {
+  margin: 2em 0 2em 0;
+}
+
+.projects p {
+  display: inline;
+}
+
+.project-title {
+  font-weight: bold;
 }
